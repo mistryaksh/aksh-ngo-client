@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { IHeaderLink } from "../../../../interface";
-import { COMMON, LAYOUT_STYLES } from "../../../../constants";
+import { LAYOUT_STYLES } from "../../../../constants";
 import { ROUTES } from "../../../../enums";
 
 import { Button } from "../../../index";
@@ -62,12 +62,14 @@ export const HeaderBottom: FC = () => {
                          <div className="flex flex-wrap sm:flex-nowrap items-center justify-between w-full">
                               <div className="sm:inline-block hidden">
                                    <Link to={ROUTES.HOME}>
-                                        <img src={COMMON.LOGO} alt="Logo" className="py-1 w-14 sm:w-24" />
+                                        {/* <img src={COMMON.LOGO} alt="Logo" className="py-1 w-14 sm:w-24" /> */}
+                                        <h6 className="text-2xl font-mono text-emerald-500 font-semibold">Infinity</h6>
                                    </Link>
                               </div>
                               <div className="flex items-center justify-between w-full sm:hidden">
                                    <Link to={ROUTES.HOME}>
-                                        <img src={COMMON.LOGO} alt="Logo" className="py-1 w-14 sm:w-24" />
+                                        {/* <img src={COMMON.LOGO} alt="Logo" className="py-1 w-14 sm:w-24" /> */}
+                                        <h6>Infinity</h6>
                                    </Link>
                                    <Button onClick={handleMenuOpen} styles="rounded-full px-[14px]" sm>
                                         <GiHamburgerMenu />

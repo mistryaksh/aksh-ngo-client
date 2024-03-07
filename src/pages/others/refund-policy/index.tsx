@@ -8,10 +8,9 @@ export const RefundPolicyPage = () => {
                     <h6 className="text-3xl font-semibold capitalize">Privacy & Refund Policy</h6>
                     <div className="whitespace-pre-line">
                          <p className="text-gray-500">
-                              This Privacy and Refund Policy ("Policy") outlines how OM SHANTI WELFARE TRUST
-                              ("Organization") handles personal information and refund requests in relation to online
-                              donations. By making a donation through our online platform, you agree to the terms
-                              outlined in this Policy.
+                              This Privacy and Refund Policy ("Policy") outlines how Infinity ("Organization") handles
+                              personal information and refund requests in relation to online donations. By making a
+                              donation through our online platform, you agree to the terms outlined in this Policy.
                          </p>
                          {"\n"}
                          <b className="text-emerald-500">Privacy Policy:</b>
@@ -99,7 +98,7 @@ export const RefundPolicyPage = () => {
                          {"\n"}
                          <p className="text-emerald-500">Contact Information:</p> If you have any questions or concerns
                          about this Policy, or if you would like to request a refund, please contact us at:
-                         <b> +91 99204 41626</b>
+                         <b> +91 1234567890</b>
                     </div>
                </div>
           </Layout>

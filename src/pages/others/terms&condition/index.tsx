@@ -9,9 +9,9 @@ export const TermsAndConditionPage = () => {
                     <div className="whitespace-pre-wrap">
                          Terms and Conditions for Online Donations These Terms and Conditions ("Terms") govern your use
                          of our online donation platform ("Platform") provided by Subodh Gangaram Bawdane founder of{" "}
-                         <span className="capitalize text-emerald-500">om shanti welfare trust</span>. By making a
-                         donation through our Platform, you agree to these Terms. Please read them carefully before
-                         proceeding with your donation.
+                         <span className="capitalize text-emerald-500">Infinity</span>. By making a donation through our
+                         Platform, you agree to these Terms. Please read them carefully before proceeding with your
+                         donation.
                          {"\n"}
                          {"\n"}
                          <b className="text-emerald-500">Donation Policy:</b>
@@ -100,7 +100,7 @@ export const TermsAndConditionPage = () => {
                               courts of Maharashtra. By proceeding with your donation, you confirm that you have read,
                               understood, and agree to abide by these Terms. If you do not agree to these Terms, please
                               refrain from making a donation through our Platform. For any questions or concerns
-                              regarding these Terms, please contact us at <b> +91 99204 41626</b>.
+                              regarding these Terms, please contact us at <b> +91 1234567890</b>.
                          </p>
                     </div>
                </div>

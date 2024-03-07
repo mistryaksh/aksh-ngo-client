@@ -102,9 +102,7 @@ export const ContactModule: FC = () => {
                          <div className="flex items-start gap-x-3 flex-col">
                               <IoHomeOutline className="text-lg sm:text-2xl text-slate-400 mt-1" />
                               <div>
-                                   <h4 className="text-blue-950 font-semibold text-sm sm:text-base mb-1">
-                                        OM SHANTI WELFARE TRUST
-                                   </h4>
+                                   <h4 className="text-blue-950 font-semibold text-sm sm:text-base mb-1">Infinity</h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light">
                                         OFF. NO 607, KANAN APARTMENT,AMRUT NAGAR, GHATKOPAR(WEST),MUMBAI, MH18,MH,400086
                                    </p>
@@ -114,7 +112,7 @@ export const ContactModule: FC = () => {
                               <TfiMobile className="text-lg sm:text-2xl text-slate-400 mt-1" />
                               <div>
                                    <h4 className="text-blue-950 text-sm sm:text-base font-light mb-1">
-                                        +91 99204 41626
+                                        +91 1234567890
                                    </h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light uppercase">
                                         Mon to Fri 9am to 6pm
