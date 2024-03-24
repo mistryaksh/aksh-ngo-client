@@ -77,6 +77,37 @@ export const HomeModule = () => {
                          </div>
                     </div>
                </div>
+               <div className=" py-20">
+                    <div className="container mx-auto">
+                         <h6 className="text-3xl capitalize">What our numbers says!</h6>
+                         <div className="grid xl:grid-cols-4 gap-5 mt-5 grid-cols-12 lg:grid-cols-6 items-start">
+                              <div className=" flex flex-col items-center shadow-xl p-3 py-10 hover:py-12 rounded-xl group transition-all">
+                                   <p className="text-6xl text-gray-500 group-hover:text-gray-900">5000</p>
+                                   <h6 className="text-xl group-hover:text-emerald-500 font-semibold">Happy Faces</h6>
+                              </div>
+                              <div className=" flex flex-col items-center shadow-xl p-3 py-10 hover:py-12 rounded-xl group transition-all">
+                                   <p className="text-6xl text-gray-500 group-hover:text-gray-900">2000</p>
+                                   <h6 className="text-xl group-hover:text-emerald-500 font-semibold">
+                                        Success Mission
+                                   </h6>
+                              </div>
+
+                              <div className=" flex flex-col items-center shadow-xl p-3 py-10 hover:py-12 rounded-xl group transition-all">
+                                   <p className="text-6xl text-gray-500 group-hover:text-gray-900">20,000</p>
+                                   <h6 className="text-xl group-hover:text-emerald-500 font-semibold">
+                                        Volunteer Reached
+                                   </h6>
+                              </div>
+
+                              <div className=" flex flex-col items-center shadow-xl p-3 py-10 hover:py-12 rounded-xl group transition-all">
+                                   <p className="text-6xl text-gray-500 group-hover:text-gray-900">150</p>
+                                   <h6 className="text-xl group-hover:text-emerald-500 font-semibold">
+                                        Globalization Work
+                                   </h6>
+                              </div>
+                         </div>
+                    </div>
+               </div>
                <ProgramsModule
                     tagLine="Our Cases You Can See"
                     heading="Explore Our Latest Programs That We Works"
